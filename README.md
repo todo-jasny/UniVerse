@@ -32,6 +32,7 @@ pip install .
 
 1. Uni Class
    Handles encoding and decoding Unicode strings to and from decimal Unicode code points.
+   
    **Methods**:
    * `encode(text: str) -> str`
      Converts a string to its decimal Unicode code points, separated by spaces.
@@ -50,8 +51,9 @@ pip install .
     print(decoded)  # Output: "Hello"
     ```
 
-2. Bin Class
+3. Bin Class
    Handles encoding and decoding strings to binary repersentations
+   
    **Methods**
    * `encode(text: str) -> str`
      Converts a string to its binary repersentation, seperates characters with spaces
@@ -70,8 +72,9 @@ pip install .
     print(text)  # Output: "Hi"
     ```
 
-3. RGB Class
+4. RGB Class
    Encodes strings into RGB tuples useing md5 hashing and decodes them back to text
+   
    **Methods**
    * `encode(text: str) -> list[tuple]`
      Converts a string into a list of RGB tuples.
@@ -90,7 +93,7 @@ pip install .
     print(text)  # Output: "A"
    ```
 
-4. CSC Class
+5. CSC Class
 Encodes and decodes strings using Caesar cipher manipulation.
 
 **Methods**
